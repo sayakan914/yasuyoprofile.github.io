@@ -13,10 +13,13 @@ header {
   padding: 0;
 }
 
-header img {
+.icon img {
   width: 380px;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: tan;
 }
 
 ul {
@@ -38,6 +41,7 @@ section img {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  align-items: center;
 }
 
 .icon {
@@ -47,3 +51,17 @@ section img {
 .info {
   background-color: snow;
 }
+
+.info h1 {
+  margin-bottom: 0;
+}
+
+.info h2 {
+  margin: 0;
+}
+
+.info p {
+margin-left: 16px;
+margin-right: 16px;
+}
+
