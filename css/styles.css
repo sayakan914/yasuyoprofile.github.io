@@ -1,80 +1,108 @@
-Body {
-  font-family: Arial, Helvetica, sans-serif;
+@media screen and (max width:480px) {
+/* 画面サイズが480pc以下の場合ここの記述が適用される */
+
+}
+
+body {
+  font-family: 'Arial', Helvetica, sans-serif;
   background: black;
   color: white;
 }
 
 header {
-  display: flex;
+  background-color: black;
   margin: 0;
-  background-color: Black;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.profile {
+ background-color: black;
+ width: 800px;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ align-items: center;
+}
+
+.icon {
+  background-color: black;
+}
+
+.icon img {
+  width: 480px;
+}
+
+.container {
+  background-color:  black;;
+  margin-left: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
 }
 
 .container h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  padding-top: 60px;
-  margin: 100;
-  margin-left: 200;
-  padding: 50;
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 1.8;
+  margin: 0;
+  text-align: center;
+}
+
+.container h2 {
+  margin: 0;
+  text-align: center;
 }
 
 .container p {
   font-family: monospace;
+}
+
+.container p {
   margin: 0;
-}
-
-header img {
-  width: 400px;
-  background-color: black;
-  vertical-align: bottom;
-}
-
-.container {
-  background: black;
-  font-size: large;
-  color: white;
+  margin-bottom: 16px;
   text-align: center;
-  
 }
 
-.sns img {
-  width: 30px;
+.container ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.container ul li {
+  margin-right: 8px;
+}
+
+.container img {
+  width: 60px;
+  text-align: center;
 }
 
 section {
   text-align: center;
 }
 
-.profile img {
-  width: 160px;
-  border-radius: 10%;
+.works {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-.icon {
-  font-size: 25px;
-  text-align: center;
+.works img {
+  width: 280px;
+  border-radius: 24px;
 }
 
-.icon ul,
-.icon a {
-  list-style: none;
-  width: auto;
-  margin: 20px;
-  text-decoration: none;
+.works h1 {
+  font-size: 40px;
+}
+
+.btn ul {
+  width: 100%;
+  list-style-type: none;
   background-color: #fff0f5;
-  color: #333;
-  margin: 0;
-}
-
-.icon:hover {
-  opacity: 0.9;
+  cursor: pointer;
 }
 
 footer {
   text-align: center;
+  color: #c0c0c0;
 }
