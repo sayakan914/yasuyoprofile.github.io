@@ -105,6 +105,8 @@ section {
 
 .btn {
   width: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .btn ul {
