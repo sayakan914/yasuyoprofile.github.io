@@ -1,6 +1,12 @@
-@media screen and (max width:480px) {
-/* 画面サイズが480pc以下の場合ここの記述が適用される */
-
+@media screen and(max-width: 480px) {
+  img {
+  border: 0;
+  }
+  }
+@media screen and(min-width: 1280px) {
+  img {
+  border: 1px solid red;
+  }
 }
 
 body {
@@ -31,7 +37,7 @@ header {
 }
 
 .icon img {
-  width: 480px;
+  width: 280px;
 }
 
 .container {
@@ -87,7 +93,7 @@ section {
 }
 
 .works img {
-  width: 280px;
+  width: 180px;
   border-radius: 24px;
 }
 
@@ -95,14 +101,18 @@ section {
   font-size: 40px;
 }
 
+.btn {
+  width: 800px;
+}
+
 .btn ul {
-  width: 100%;
   list-style-type: none;
   background-color: #fff0f5;
   cursor: pointer;
 }
 
 footer {
+  width: 800px;
   text-align: center;
   color: #c0c0c0;
 }
