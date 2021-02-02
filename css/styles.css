@@ -31,8 +31,7 @@ header {
 }
 
 .container {
-  background-color:  black;;
-  margin-left: 36px;
+  background-color:  black;
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
 }
@@ -57,17 +56,15 @@ header {
 
 .container ul {
   margin: 0;
+  padding-left: 70px;
   list-style-type: none;
   display: flex;
-}
-
-.container ul li {
-  margin-right: 8px;
+  text-align: center;
 }
 
 .container img {
+  padding: 5px;
   width: 60px;
-  text-align: center;
 }
 
 section {
