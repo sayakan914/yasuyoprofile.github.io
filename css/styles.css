@@ -50,9 +50,6 @@ header {
 
 .container p {
   font-family: monospace;
-}
-
-.container p {
   margin: 0;
   margin-bottom: 16px;
   text-align: center;
@@ -78,10 +75,13 @@ section {
 }
 
 .works {
-  width: 800px;
   background-color: #fff0f5;
   color: #333;
-  margin-right: 15px;
+}
+
+.works .info {
+  width: 800px;
+  margin: auto;
 }
 
 .works img {
@@ -89,32 +89,40 @@ section {
   border-radius: 24px;
   padding-top: 10px;
   margin-top: 10px;
-  margin-left: 50px;
 }
 
 .works h1 {
   font-size: 40px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.works h2 {
+  margin: 0;
+}
+
+.works p {
+  line-height: 1.8;
 }
 
 .btn {
-  width: 800px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: snow;
   text-align: center;
-  display: flex;
-
 }
 
 .btn ul {
-  width: 800px;
   list-style-type: none;
   background-color: #fff0f5;
   cursor: pointer;
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
 footer {
-  width: 800px;
   padding:64px 0;
   text-align: center;
   color: #c0c0c0;
@@ -127,29 +135,30 @@ footer {
     margin: 0 auto;
   }
 
-  header icon {
-    width: 60%;
+  header .icon {
+    width: 50%;
+    align-self: center;
   }
 
   header .container {
+    width: 50%;
+  }
+
+  .works section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .works .pic {
     width: 40%;
   }
-}
 
-.works section {
-  display: flex;
-}
-
-.works .pic {
-  width: 40%;
-}
-
-.works .info {
-  width: 60%;
+  .works .prof {
+    width: calc(60% + 40px);
+  }
 }
 
 .btn img {
   width: 40px;
   text-align: center;
 }
-
