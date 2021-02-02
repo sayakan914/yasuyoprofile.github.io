@@ -81,6 +81,7 @@ section {
   width: 800px;
   background-color: #fff0f5;
   color: #333;
+  margin-right: 15px;
 }
 
 .works img {
@@ -140,11 +141,11 @@ footer {
 }
 
 .works .pic {
-  width: 50%;
+  width: 40%;
 }
 
 .works .info {
-  width: calc(50% - 33px);
+  width: 60%;
 }
 
 .btn img {
