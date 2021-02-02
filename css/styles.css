@@ -82,12 +82,15 @@ section {
 .works .info {
   width: 800px;
   margin: auto;
+  font-size: 20px;
 }
 
 .works img {
-  width: 180px;
-  border-radius: 24px;
-  padding-top: 10px;
+  width: 200px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #db7093;
   margin-top: 10px;
 }
 
