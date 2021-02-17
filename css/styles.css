@@ -7,17 +7,13 @@ body {
 header {
   background-color: black;
   margin: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
   text-align: center;
 }
 
 .profile {
  background-color: black;
- width: 800px;
- margin-left: auto;
- margin-right: auto;
- display: flex;
  align-items: center;
 }
 
@@ -82,13 +78,13 @@ section {
   font-size: 20px;
 }
 
-.works img {
-  width: 200px;
+.works .pic img {
+  width: 250px;
   border-radius: 50%;
   border-width: 5px;
   border-style: solid;
   border-color: #db7093;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .works h1 {
@@ -103,21 +99,6 @@ section {
 
 .works p {
   line-height: 1.8;
-}
-
-.btn {
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  background-color: snow;
-  text-align: center;
-}
-
-.btn ul {
-  margin: 0;
-  list-style-type: none;
-  background-color: #fff0f5;
-  border-radius: 8px;
-  cursor: pointer;
 }
 
 .btn:hover {
@@ -153,6 +134,7 @@ footer {
 
   .works .pic {
     width: 40%;
+    margin-top: 120px;
   }
 
   .works .prof {
@@ -160,12 +142,17 @@ footer {
   }
 }
 
-.btn img {
-  width: 20px;
-  text-align: center;
+.prof ul {
+  list-style-type: none;
 }
 
-.btn a {
+.prof img {
+  width: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.prof a {
   padding: 20px;
   line-height: 2;
   font-weight: bold;
