@@ -152,14 +152,18 @@ footer {
   .works .prof p {
     text-align: left;
   }
+  
+  .prof ul {
+    /* list-style-type: none; */
+    text-align: left;
+    padding-left: 0;
+  }
 }
 
 .prof ul {
   list-style-type: none;
-  text-align: left;
-  padding-left: 0;
 }
-
+  
 .prof img {
   width: 20px;
   text-align: left;
