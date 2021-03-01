@@ -172,6 +172,7 @@ footer {
 
 .prof a {
   padding: 20px;
+  padding-left: 0;
   line-height: 2;
   font-weight: bold;
 }
